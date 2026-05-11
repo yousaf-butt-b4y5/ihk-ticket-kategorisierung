@@ -427,3 +427,9 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# PowerShell / IHK-Projekt
+data/output/
+*.log
+*.tmp
+.vscode/launch.json
