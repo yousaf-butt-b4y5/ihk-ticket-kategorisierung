@@ -1,0 +1,19 @@
+﻿TicketID;Betreff;Beschreibung;Meldender;Abteilung;Quelle;Standort;ErstelltAm
+T-2026-0501;Drucker druckt nicht;Der Etiketten-Drucker in Halle A reagiert nicht mehr, Druckaufträge bleiben in der Warteschlange hängen.;Anna Schneider;Produktion;Telefon;Werk Süd - Halle A;05.05.2026 08:14
+T-2026-0502;Outlook lässt sich nicht öffnen;Outlook startet nicht. Fehlermeldung: 'Outlook konnte nicht gestartet werden, Datendatei fehlerhaft'.;Markus Weber;Verwaltung;Mail;Werk Nord - Verwaltung;05.05.2026 08:23
+T-2026-0503;Citrix-Sitzung lädt nicht;Mehrere Kollegen in Halle 2 können sich nicht in die Citrix-Umgebung einloggen, schwarzer Bildschirm nach Login.;Lisa Hoffmann;Produktion;Telefon;Werk Süd - Halle 2;05.05.2026 08:45
+T-2026-0504;WLAN-Ausfall Halle 3;Im gesamten Produktionsbereich Halle 3 ist kein WLAN verfügbar, Hand-Scanner offline, Materialbuchung blockiert.;Thomas Müller;Logistik;Telefon;Werk Nord - Halle 3;05.05.2026 09:02
+T-2026-0505;Passwort zurücksetzen;Bitte mein Domänen-Passwort zurücksetzen, ich habe es nach dem Urlaub vergessen.;Sarah Klein;Buchhaltung;Self-Service-Portal;Werk Nord - Verwaltung;05.05.2026 09:18
+T-2026-0506;Bildschirm flackert;Mein zweiter Monitor flackert seit heute morgen unregelmäßig, Bild teilweise verzerrt.;Daniel Fischer;Vertrieb;Mail;Werk Nord - Vertrieb;05.05.2026 09:33
+T-2026-0507;VPN-Einwahl funktioniert nicht;VPN-Verbindung aus dem Homeoffice baut sich nicht auf, Cisco AnyConnect meldet Timeout-Fehler.;Julia Wagner;Personal;Mail;Homeoffice;05.05.2026 09:47
+T-2026-0508;M365-Lizenz fehlt für neuen Mitarbeiter;Neuer Mitarbeiter Hr. Berger kann sich nicht bei Microsoft 365 anmelden, vermutlich fehlende Lizenz-Zuweisung.;Stefan Becker;Personal;Mail;Werk Nord - Verwaltung;05.05.2026 09:55
+T-2026-0509;Notebook startet nicht;Notebook fährt nicht hoch, schwarzer Bildschirm trotz mehrfachem Neustart und gehaltener Power-Taste.;Nina Schmidt;QS;Telefon;Werk Süd - QS-Labor;05.05.2026 10:12
+T-2026-0510;Teams stürzt bei Anrufen ab;Microsoft Teams beendet sich bei eingehenden Anrufen, Headset und Audio scheinen zu funktionieren.;Matthias Wolf;Vertrieb;Telefon;Werk Nord - Vertrieb;05.05.2026 10:24
+T-2026-0511;Excel-Datei lässt sich nicht speichern;Beim Speichern einer großen Excel-Mappe Fehlermeldung 'Datei konnte nicht gespeichert werden, Pfad nicht gefunden'.;Petra Krüger;Buchhaltung;Mail;Werk Nord - Verwaltung;05.05.2026 10:38
+T-2026-0512;AD-Konto gesperrt;Mein Active-Directory-Konto ist nach mehreren fehlgeschlagenen Login-Versuchen gesperrt, kann mich nicht mehr anmelden.;Kevin Lang;IT;Telefon;Werk Süd - IT;05.05.2026 10:51
+T-2026-0513;Citrix Workspace zeigt keine Apps;Im Citrix Workspace fehlen plötzlich alle veröffentlichten Anwendungen, leere App-Übersicht.;Andrea Hofmann;Verwaltung;Self-Service-Portal;Werk Nord - Verwaltung;05.05.2026 11:05
+T-2026-0514;Maus reagiert nicht;Die kabellose Maus an meinem Arbeitsplatz reagiert nicht mehr, Batterien gewechselt - keine Besserung.;Tim Richter;Vertrieb;Mail;Werk Nord - Vertrieb;05.05.2026 11:21
+T-2026-0515;Internetverbindung langsam;Die Internetverbindung im Bürogebäude ist seit dem Vormittag deutlich langsamer als gewohnt, Webseiten laden träge.;Sophie Braun;Vertrieb;Mail;Werk Süd - Verwaltung;05.05.2026 11:35
+T-2026-0516;Frage zur neuen Telefonanlage;Wie kann ich eine Rufumleitung auf mein Mobiltelefon einrichten? Eine kurze Anleitung wäre hilfreich.;Patrick Neumann;Verwaltung;Mail;Werk Nord - Verwaltung;05.05.2026 11:49
+T-2026-0517;SAP-Client Lizenzfehler;SAP-Client startet mit Meldung 'Lizenz abgelaufen', verhindert Auftragsbearbeitung im Vertriebsteam.;Marie Schulz;Vertrieb;Telefon;Werk Nord - Vertrieb;05.05.2026 12:03
+T-2026-0518;Bestellung neues Notebook;Anfrage zur Beschaffung eines neuen Notebooks für eingehenden Werkstudenten ab 01.06.2026.;Christian Köhler;Personal;Mail;Werk Nord - Verwaltung;05.05.2026 12:18
