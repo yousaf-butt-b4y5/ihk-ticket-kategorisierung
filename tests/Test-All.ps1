@@ -10,6 +10,7 @@ $testFiles = @(
     'Get-Urgency.Tests.ps1'
     'Get-Impact.Tests.ps1'
     'Get-Prioritaet.Tests.ps1'
+    'Negativ.Tests.ps1'
 )
 
 Write-Host "`n========================================" -ForegroundColor Cyan
