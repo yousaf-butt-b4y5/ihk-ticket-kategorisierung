@@ -187,7 +187,7 @@ Das Projekt enthält **39 automatisierte Tests** in 5 Testdateien.
 | **Prüfungstermin** | Sommer 2026 |
 | **Projektumfang** | 40 Stunden |
 | **Bearbeitungszeitraum** | 09.04.2026 – 20.05.2026 |
-| **Status** | ✅ Abgeschlossen |
+| **Status** | Abgeschlossen ✅ |
 | **Tests** | 39/39 ✓ |
 
 ---
