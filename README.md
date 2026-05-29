@@ -182,7 +182,6 @@ Das Projekt enthält **39 automatisierte Tests** in 5 Testdateien.
 | | |
 |---|---|
 | **Prüfling** | Yousaf Butt |
-| **Identnummer** | 204494 |
 | **IHK** | Nürnberg für Mittelfranken |
 | **Prüfungstermin** | Sommer 2026 |
 | **Projektumfang** | 40 Stunden |
