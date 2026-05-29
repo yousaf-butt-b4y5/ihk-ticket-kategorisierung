@@ -23,6 +23,7 @@ Ein PowerShell-Tool, das eingehende IT-Service-Desk-Tickets automatisch **katego
 - [Verwendung](#verwendung)
 - [Tests](#tests)
 - [Technische Details](#technische-details)
+- [Bekannte Grenzen & Ausblick](#bekannte-grenzen--ausblick)
 - [Status & Metadaten](#status--metadaten)
 
 ---
@@ -183,6 +184,19 @@ Das Projekt enthält **39 automatisierte Tests** in 5 Testdateien.
 - **Reihenfolge der Kategorie-Prüfung:** Sicherheit zuerst (sicherheitsrelevante Tickets haben Vorrang), Hardware zuletzt (vermeidet Fehlklassifikation von Bestellungen).
 - **Urgency vor Niedrig-Keywords:** Bei mehrdeutigen Tickets gewinnt die höhere Dringlichkeit (Vorsichtsprinzip).
 - **Kein Pester:** Bewusst PowerShell-native Tests, ohne externe Modul-Abhängigkeit. Pester ist als Erweiterung im Ausblick dokumentiert.
+
+---
+
+## Bekannte Grenzen & Ausblick
+
+Die Klassifikation ist bewusst regelbasiert und einfach gehalten. Daraus ergeben sich Grenzen, die ich kenne und benenne:
+
+- **Substring-Matching ohne Wortgrenzen.** Keywords werden mit `-like "*wort*"` gesucht. Der Einzelperson-Indikator `ich` schlägt dadurch auch in Wörtern wie „eigentlich" oder „gleich" an (False Positive bei `Get-Impact`). → Härtung über Wortgrenzen (Regex `\b`).
+- **Manuelle Keyword-Pflege.** Neue Begriffe müssen von Hand in die Listen. → Auslagern in eine JSON-Konfiguration statt Hardcoding.
+- **Erster Treffer gewinnt.** Ein Ticket mit mehreren Themen erhält nur die erste passende Kategorie. Multi-Label wäre eine Erweiterung.
+- **Feste Pfade.** Ein-/Ausgabe-CSV sind aktuell im Skript verdrahtet. → Parameter (`-InputFile`/`-OutputFile`), um es als wiederverwendbares Tool zu nutzen.
+
+**Mögliche nächste Schritte:** Regex-Wortgrenzen · Keywords/Matrix in JSON-Config · Pfad-Parameter · Anbindung an einen echten Ticket-Export (ITSM/API) statt Demo-CSV.
 
 ---
 
