@@ -1,7 +1,16 @@
-# IHK-Abschlussprojekt FISI (AP2) — Automatisierte Ticket-Kategorisierung
+# Automatisierte Ticket-Kategorisierung (PowerShell)
 
-> **PowerShell-basierte Lösung zur Kategorisierung und Priorisierung von IT-Service-Desk-Tickets**
-> IHK-Projektarbeit Sommer 2026, Fachinformatiker Systemintegration
+Ein PowerShell-Tool, das eingehende IT-Service-Desk-Tickets automatisch **kategorisiert** und nach dem ITIL-Prinzip **Urgency × Impact** in Prioritäten **P1–P5** einordnet — CSV rein, angereicherte CSV raus.
+
+**Das Problem:** Im Service-Desk werden Tickets manuell einsortiert und priorisiert. Das kostet Zeit und fällt je nach Bearbeiter unterschiedlich aus.
+
+**Die Lösung:** Schlüsselwort-basierte Kategorisierung + regelbasierte Urgency-/Impact-Bewertung + 3×3-Prioritätsmatrix. Ohne externe Module, mit 39 automatisierten Tests.
+
+> **Warum ich das gebaut habe:** Aus meinem Arbeitsalltag im IT-Service-Desk. Statt Tickets nur abzuarbeiten, habe ich den wiederkehrenden Triage-Schritt automatisiert — *vom Betreuen ins Bauen*.
+
+**Eingesetzt:** PowerShell 7 · regelbasierte Klassifikation · ITIL-Priorisierung · CSV-Verarbeitung · PowerShell-native Unit-Tests · Git
+
+*Entstanden als IHK-Abschlussprojekt (FISI Systemintegration, AP2 Sommer 2026).*
 
 ---
 
