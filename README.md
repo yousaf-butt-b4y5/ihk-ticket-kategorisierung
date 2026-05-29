@@ -193,4 +193,6 @@ Das Projekt enthält **39 automatisierte Tests** in 5 Testdateien.
 
 ## Lizenz / Hinweis
 
-Dieses Repository enthält die Implementierung einer IHK-Projektarbeit. Alle verwendeten Ticketdaten sind **simuliert** und enthalten keine personenbezogenen Daten im Sinne der DSGVO. Personennamen, Standorte und Abteilungen sind frei erfunden.
+Dieser Code steht unter der [MIT-Lizenz](LICENSE) — frei nutz-, anpass- und weitergebbar.
+
+Alle verwendeten Ticketdaten sind **simuliert** und enthalten keine personenbezogenen Daten im Sinne der DSGVO. Personennamen, Standorte und Abteilungen sind frei erfunden. Das Repository entstand als IHK-Projektarbeit (FISI Systemintegration, Sommer 2026).
