@@ -1,5 +1,12 @@
 # Automatisierte Ticket-Kategorisierung (PowerShell)
 
+![PowerShell 7](https://img.shields.io/badge/PowerShell-7-5391FE?logo=powershell&logoColor=white)
+![Tests](https://img.shields.io/badge/tests-39%2F39%20passing-brightgreen)
+![ITIL](https://img.shields.io/badge/ITIL-Urgency%20%C3%97%20Impact-orange)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue)
+
+> **EN:** Rule-based IT service desk ticket classifier in pure PowerShell — categorizes incoming tickets and assigns ITIL priorities (P1–P5) via an Urgency × Impact matrix. CSV in, enriched CSV out. No external modules, 39 automated tests. Built as my German IHK final exam project (IT specialist, systems integration).
+
 Ein PowerShell-Tool, das eingehende IT-Service-Desk-Tickets automatisch **kategorisiert** und nach dem ITIL-Prinzip **Urgency × Impact** in Prioritäten **P1–P5** einordnet — CSV rein, angereicherte CSV raus.
 
 **Das Problem:** Im Service-Desk werden Tickets manuell einsortiert und priorisiert. Das kostet Zeit und fällt je nach Bearbeiter unterschiedlich aus.
